@@ -1,4 +1,4 @@
-# 🤖 AI Research Agent
+# AI Research Agent
 
 An intelligent conversational research assistant that provides comprehensive, multi-perspective analysis through natural chat interaction. Built with advanced AI capabilities and a modern, clean interface.
 
@@ -7,39 +7,39 @@ An intelligent conversational research assistant that provides comprehensive, mu
 ![Groq](https://img.shields.io/badge/AI-Groq%20LLaMA-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 🌟 Key Features
+## Key Features
 
-### � **Conversational AI Interface**
+### **Conversational AI Interface**
 - Natural chat-based interaction with your research agent
 - Intelligent intent recognition (research vs. questions vs. greetings)
 - Memory and conversation context for follow-up questions
 - Smooth typing indicators and professional chat bubbles
 
-### 🔍 **Intelligent Research Engine**
+### **Intelligent Research Engine**
 - Multi-perspective research with 4 different query angles
 - Automatic topic extraction and query optimization
 - Real-time research progress with clean UI (input area hidden during research)
 - Professional research reports with comprehensive analysis
 
-### 🎯 **Smart User Experience**
+### **Smart User Experience**
 - One-click example buttons for instant interaction
 - Research Mode toggle for forcing research on any query
 - Dark theme with professional styling and animations
 - Clean progress indicators positioned above input area
 
-### 🧠 **Advanced AI Capabilities**
+### **Advanced AI Capabilities**
 - Powered by Groq LLaMA for fast, intelligent responses
 - Context-aware conversation memory
 - Sophisticated intent analysis and response generation
 - Seamless integration between chat and research functionality
 
-### 📊 **Professional Research Output**
+### **Professional Research Output**
 - Comprehensive analysis from multiple sources
 - Fact-checking and credibility assessment
 - Professional citations (APA, MLA, Simple formats)
 - Expandable research results sections
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -87,7 +87,7 @@ An intelligent conversational research assistant that provides comprehensive, mu
    
    Navigate to `http://localhost:8501` and begin your research conversation!
 
-## 🔧 Configuration
+## Configuration
 
 ### API Keys Setup
 
@@ -115,27 +115,27 @@ The application supports three citation formats:
 
 ### Getting Started
 1. **Launch the agent** and you'll see three example buttons:
-   - 👋 "Hello, what can you do?" - Learn about agent capabilities
-   - 🚗 "Research Tesla vs competitors" - Instant research demo
-   - 🤖 "Tell me about AI ethics" - Explore AI topics
+   - "Hello, what can you do?" - Learn about agent capabilities
+   - "Research Tesla vs competitors" - Instant research demo
+   - "Tell me about AI ethics" - Explore AI topics
 
 2. **Start a conversation** by clicking any button or typing in the chat input
 
 ### Conversation Types
 
-#### 🤝 **Ask Questions**
+#### **Ask Questions**
 - "What can you do?"
 - "How do you work?"
 - "What are your capabilities?"
 - Agent responds with helpful information about its features
 
-#### 🔬 **Request Research**
+#### **Request Research**
 - "Research Tesla vs competitors"
 - "Tell me about climate change"
 - "Analyze startup funding trends"
 - Agent performs comprehensive multi-source research
 
-#### 💭 **Natural Chat**
+#### **Natural Chat**
 - "Hello" or greetings
 - Follow-up questions about previous research
 - Clarifications and expansions on topics
@@ -152,7 +152,7 @@ The application supports three citation formats:
 - **Science**: "Climate solutions", "space exploration", "medical breakthroughs"
 - **Society**: "Education trends", "social media impact", "urban planning"
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 BSB-Final-Submission/
@@ -173,7 +173,7 @@ BSB-Final-Submission/
 - **`.env`**: Secure storage for Groq and Tavily API keys
 - **`requirements.txt`**: All necessary Python packages
 
-## 🧠 How It Works
+## How It Works
 
 ### Conversation Flow
 1. **Intent Analysis**: AI determines if you're asking questions, requesting research, or just chatting
@@ -196,14 +196,14 @@ BSB-Final-Submission/
 - **Streamlit**: Modern, responsive web interface with real-time updates
 - **Custom Algorithms**: Intent recognition, context management, and UI optimization
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 - **No Data Storage**: Queries and results are not permanently stored
 - **Secure API Calls**: All external API communications are encrypted
 - **Local Processing**: Research reports generated locally
 - **Environment Variables**: Sensitive API keys stored securely
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -221,7 +221,7 @@ We welcome contributions! Here's how you can help:
 - Test with different research topics
 - Ensure mobile responsiveness for UI changes
 
-## 📋 Requirements
+## Requirements
 
 ### System Requirements
 - **Operating System**: Windows 10+, macOS 10.14+, or Linux
@@ -238,7 +238,7 @@ python-dotenv>=1.0.0    # Environment variable management
 reportlab>=4.0.0        # PDF generation
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -263,7 +263,7 @@ streamlit run agent_app.py --server.port 8502
 - Check available disk space
 - Verify write permissions in the project directory
 
-## 📊 Performance
+## Performance
 
 ### Response Times
 - **Simple queries**: 15-30 seconds
@@ -274,7 +274,7 @@ streamlit run agent_app.py --server.port 8502
 - **Groq API**: 30 requests/minute (free tier)
 - **Tavily API**: 1000 requests/month (free tier)
 
-## 🔄 Updates & Changelog
+## Updates & Changelog
 
 ### Version 2.0.0 (Current)
 - ✅ Conversational AI interface with natural chat
@@ -290,13 +290,13 @@ streamlit run agent_app.py --server.port 8502
 - ✅ Research Mode toggle for forcing comprehensive analysis
 
 ### Upcoming Features (Roadmap)
-- 🔮 Conversation history and bookmarking
-- 🔮 Export research results to PDF/DOCX
-- 🔮 Advanced source filtering and preferences
-- 🔮 Multi-language support
-- 🔮 Team collaboration and sharing features
+- Conversation history and bookmarking
+- Export research results to PDF/DOCX
+- Advanced source filtering and preferences
+- Multi-language support
+- Team collaboration and sharing features
 
-## 📞 Support
+## Support
 
 ### Getting Help
 - **Issues**: Report bugs via GitHub Issues
@@ -308,11 +308,11 @@ streamlit run agent_app.py --server.port 8502
 - **GitHub**: [@yourusername]
 - **Twitter**: [@yourhandle]
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Groq**: For providing fast, efficient AI language processing
 - **Tavily**: For comprehensive web search capabilities
@@ -322,7 +322,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🎯 Perfect For
+## Perfect For
 
 - **Students**: Research papers, assignments, and academic projects
 - **Professionals**: Market analysis, competitive research, and industry insights
@@ -330,7 +330,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Curious Minds**: Learning about any topic with comprehensive, reliable information
 - **Teams**: Collaborative research with consistent, professional outputs
 
-## 🌟 What Makes This Special
+## What Makes This Special
 
 Unlike traditional search tools, this AI Research Agent:
 - **Thinks like a researcher**: Multiple perspectives, not just one search
@@ -343,4 +343,4 @@ Unlike traditional search tools, this AI Research Agent:
 
 **Made with ❤️ for researchers, students, and curious minds everywhere.**
 
-*Happy Researching with your AI Agent! 🤖✨*
+*Happy Researching with your AI Agent! ✨*
